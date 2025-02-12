@@ -1,2 +1,11 @@
-# undertale-like
- 
+﻿# ENGL-3500-Homework-5
+
+Coursework for ENGL 3500: Literary Games taught by Professors Jason Bennett (jcb2h) and Brad Pasanek (bmp7e) at the University of Virginia
+
+# Reflection
+
+I think one of the first things that really struck me about this article was when it was written. I really feel like what they're saying makes sense when it comes to games as a sort of make-believe metaphor. But knowing that this was written before we had the hyper-photoreal games of today. I think what is said still applies where ultimately the user is getting into the world of "make believe" (I mean, one of the primary aesthetics we talk about is "Fantasy"), but I wonder if the crossover is starting to blend together. What I'm getting at is that it seems like there are games that have little to know fantasy elements to it, and may be simultaneously embedded in the world. I think games are getting good to the point where it seems to blur the line of pure fantasy, and may start to get more and more real. But when this was written, videogames weren't the photoreal simulations that we have today. I mean games are being used to simulate entire realities which I guess in this sense are just really really advanced levels of more content oriented fictional worlds.
+
+I think that their thesis really shines through in Unpacking though. In unpacking, we literally have props that we're playing in some fictional world that we can relate to as players. This are analagous to our own progressions in life as we unpack the character's life, so much so that we choose our own name to put into our own scrapbook! So our props of interest like maybe a stuffed animal moving forward seems to suggest a sense of love, and not being able to place an object like the diploma on the wall also really suggests the character's isolation in their own home without even needing to say anything explicitely. It's notable that we can't move other props in that level as well that don't belong to us. I think the fact that an object ISN'T of interest (interactable) is just as important to us as the player as the objects that are.
+
+Sidenote: talking about objects as a programmer in a class with programming is breaking my brain because I keep thinking of objects in a more programmatic sense in Object-Oriented-Programming.
