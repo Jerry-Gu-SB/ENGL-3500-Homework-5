@@ -6,6 +6,7 @@
 [ext_resource type="Script" path="res://Scripts/interactable_control.gd" id="4_4s7yq"]
 
 [node name="Chest" type="Node2D"]
+position = Vector2(-2, -1)
 
 [node name="ClosedChest" type="TileMapLayer" parent="."]
 y_sort_enabled = true
@@ -22,7 +23,7 @@ tile_set = ExtResource("1_my3i5")
 script = ExtResource("2_ys3tl")
 
 [node name="InteractionArea" parent="." instance=ExtResource("2_uiyb5")]
-position = Vector2(33, -34)
+position = Vector2(1, 0)
 
 [node name="Control" type="Control" parent="."]
 layout_mode = 3

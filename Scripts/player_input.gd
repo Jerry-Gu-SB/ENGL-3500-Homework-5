@@ -11,4 +11,3 @@ func _process(delta: float) -> void:
 		_player_character.move(Globals.InputDirection.UP)
 	if Input.is_action_pressed("move_down"):
 		_player_character.move(Globals.InputDirection.DOWN)
-
