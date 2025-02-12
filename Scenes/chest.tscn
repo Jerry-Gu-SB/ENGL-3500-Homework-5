@@ -10,6 +10,7 @@ position = Vector2(-2, -1)
 
 [node name="ClosedChest" type="TileMapLayer" parent="."]
 y_sort_enabled = true
+position = Vector2(-31, -40)
 scale = Vector2(4, 4)
 tile_map_data = PackedByteArray(0, 0, 0, 0, 255, 255, 2, 0, 6, 0, 0, 0, 0, 0)
 tile_set = ExtResource("1_my3i5")
@@ -17,19 +18,22 @@ tile_set = ExtResource("1_my3i5")
 [node name="OpenChest" type="TileMapLayer" parent="."]
 visible = false
 y_sort_enabled = true
+position = Vector2(-31, -40)
 scale = Vector2(4, 4)
 tile_map_data = PackedByteArray(0, 0, 0, 0, 255, 255, 2, 0, 6, 0, 4, 0, 0, 0)
 tile_set = ExtResource("1_my3i5")
 script = ExtResource("2_ys3tl")
 
 [node name="InteractionArea" parent="." instance=ExtResource("2_uiyb5")]
-position = Vector2(1, 0)
+position = Vector2(1, 1)
 
 [node name="Control" type="Control" parent="."]
 layout_mode = 3
 anchors_preset = 0
-offset_right = 40.0
-offset_bottom = 40.0
+offset_left = -25.0
+offset_top = 3.0
+offset_right = 15.0
+offset_bottom = 43.0
 script = ExtResource("4_4s7yq")
 
 [node name="Panel" type="Panel" parent="Control"]

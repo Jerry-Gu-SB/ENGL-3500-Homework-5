@@ -1,11 +1,10 @@
-[gd_scene load_steps=7 format=4 uid="uid://qielmvulb4ru"]
+[gd_scene load_steps=6 format=4 uid="uid://qielmvulb4ru"]
 
 [ext_resource type="TileSet" uid="uid://ckkmoyss7e8rf" path="res://Art/pixel_art_top_down.tres" id="1_xebhv"]
 [ext_resource type="PackedScene" uid="uid://m3kkvah8pbk6" path="res://Scenes/chest.tscn" id="2_hw8mh"]
 [ext_resource type="PackedScene" uid="uid://btemlt2j4dfpv" path="res://Scenes/player.tscn" id="2_l0x5c"]
 [ext_resource type="Script" path="res://Scripts/player.gd" id="3_046ik"]
 [ext_resource type="Resource" uid="uid://4a2xflvgbghm" path="res://Resources/player_inventory.tres" id="4_2nw7s"]
-[ext_resource type="Texture2D" uid="uid://bmvtgbjy4by3i" path="res://Art/Pixel Art Top Down - Basic v1.1.2/Texture/TX Player.png" id="6_7k34g"]
 
 [node name="Node2D" type="Node2D"]
 
@@ -26,7 +25,7 @@ tile_map_data = PackedByteArray("AAAWAAAACAAaAAYAAAAVAAAACAAEAAwAAAAUAAAACAAGAAw
 tile_set = ExtResource("1_xebhv")
 
 [node name="Chest" parent="YSortLayers" instance=ExtResource("2_hw8mh")]
-position = Vector2(1345, 261)
+position = Vector2(240, 190)
 scale = Vector2(0.41, 0.41)
 
 [node name="Shrubs" type="TileMapLayer" parent="YSortLayers"]
@@ -55,9 +54,5 @@ y_sort_enabled = true
 scale = Vector2(4, 4)
 tile_map_data = PackedByteArray("AAAbAAgAAAARAAAAAAAHAA0AAAABAAAAAAAeAA4AAAABAAAAAAAgAA0AAAAJAAAAAAAwABMAAAAJAAAAAAAtABUAAAARAAAAAAAVABIAAAABAAAAAAAUABEAAAARAAAAAAAZAAAAAAAJAAAAAAAYAPz/AAAJAAAAAAD9/wsAAAABAAAAAAAVAAsAAAARAAAAAAAjAAcAAAARAAAAAAAxAAcAAAAJAAAAAAAyAAcAAAAJAAAAAAA0AAcAAAABAAAAAAAvABoAAAAJAAAAAAAWABoAAAABAAAAAAAPABkAAAABAAAAAABCABIAAAARAAAAAAA9ABYAAAABAAAAAAA/AAYAAAARAAAAAAD1/wcAAAARAAAAAADv//v/AAABAAAAAAAIAPX/AAARAAAAAADy/wEAAAAJAAAAAAD6/xAAAAAJAAAAAAD7/xAAAAAJAAAAAAAGABIAAAAJAAAAAAA=")
 tile_set = ExtResource("1_xebhv")
-
-[node name="Sprite2D" type="Sprite2D" parent="."]
-position = Vector2(912, 344)
-texture = ExtResource("6_7k34g")
 
 [editable path="YSortLayers/Player"]

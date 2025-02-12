@@ -17,7 +17,6 @@ var _can_interact = false
 
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
-	interactable_icon.visible = false
 	pass # Replace with function body.
 
 
@@ -31,17 +30,14 @@ func _process(delta: float) -> void:
 
 
 func _on_body_entered(body:Node2D) -> void:
-	interactable_icon.visible = true
 	_can_interact = true
 	pass # Replace with function body.
 
 
 func _on_body_exited(body:Node2D) -> void:
-	interactable_icon.visible = false
 	_can_interact = false
 	pass # Replace with function body.
 
 
 func _on_interacted() -> void:
-	interactable_icon.visible = false
 	pass # Replace with function body.

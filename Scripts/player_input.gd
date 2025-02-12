@@ -2,7 +2,7 @@ extends Node2D
 
 @onready var _player_character : CharacterBody2D = get_parent()
 
-func _process(delta: float) -> void:
+func _process(_delta: float) -> void:
 	if Input.is_action_pressed("move_left"):
 		_player_character.move(Globals.InputDirection.LEFT)
 	if Input.is_action_pressed("move_right"):
